@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .menu{
+        @apply w-10 h-[3px] bg-light-black border-none rounded-full;
+    }
+    .options-num{
+        @apply flex flex-col items-center text-3xl font-medium;
+    }
+    .options-txt{
+        @apply text-lg;
+    }
+}
