@@ -12,4 +12,28 @@
     .options-txt{
         @apply text-lg;
     }
+    .prouds-div{
+        @apply flex flex-col items-start gap-2;
+    }
+    .prouds-txt{
+        @apply flex flex-col items-start font-semibold text-xl;
+    }
+    .prouds-price{
+        @apply text-lg text-light-black/40;
+    }
+    .titles{
+        @apply text-3xl text-center w-full font-bold;
+    }
+    .about-txt{
+        @apply text-black font-bold text-2xl text-nowrap;
+    }
+    .about-p{
+        @apply text-center font-medium text-light-black/45;
+    }
+    .cat-div{
+        @apply flex flex-col items-center gap-3;
+    }
+    .cat-sub{
+        @apply text-black font-bold text-2xl;
+    }
 }

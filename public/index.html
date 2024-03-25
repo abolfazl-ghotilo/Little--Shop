@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../dist/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>Little-Shop</title>
 </head>
 <body>
@@ -58,7 +59,88 @@
                             </defs>
                             </svg>                                                          
             </section>
+            <section class="w-full flex flex-col items-center py-5">
+                <h1 class="titles">Best Selling Plants</h1>
+                <p class="text-center px-5 text-light-black/50 font-medium py-2">Easiest way to healthy life by buying your favorite plants</p>
+                <div class="flex flex-col items-center gap-5">
+                <div class="prouds-div">
+                    <img class="w-full" src="../assets/images/first.png">
+                    <h1 class="prouds-txt">Natural Plants<span class="prouds-price">₱ 1,400.00</span></h1>
+                </div>
+                <div class="prouds-div">
+                    <img class="w-full" src="../assets/images/secound.png">
+                    <h1 class="prouds-txt">Artificial Plants<span class="prouds-price">₱ 900.00</span></h1>
+                </div>
+                <div class="prouds-div">
+                    <img class="w-full" src="../assets/images/third.png">
+                    <h1 class="prouds-txt">Artificial Plants<span class="prouds-price">₱ 3,500.00</span></h1>
+                </div>
+            </div>
+            </section>
+            <section class="flex flex-col items-center py-3">
+                <h1 class="titles">About us</h1>
+                <p class="text-lg font-medium text-light-black/40 text-center py-2">Order now and appreciate the beauty of nature</p>
+                <div class="flex flex-col items-center gap-14 py-10">
+                    <div class="flex flex-col items-center gap-4">
+                        <img src="../assets/images/flower.png">
+                        <h1 class="about-txt">Large Assortment</h1>
+                        <p class="about-p">we offer many different types of products with fewer variations in each category.</p>
+                    </div>
+                    <div class="flex flex-col items-center gap-4">
+                        <img src="../assets/images/box.png">
+                        <h1 class="about-txt">Fast & Free Shipping</h1>
+                        <p class="about-p">4-day or less delivery time, free shipping and
+                            an expedited delivery option.</p>
+                    </div>
+                    <div class="flex flex-col items-center gap-4">
+                        <img src="../assets/images/phone.png">
+                        <h1 class="about-txt">24/7 Support</h1>
+                        <p class="about-p">answers to any business related inquiry 24/7
+                            and in real-time.</p>
+                    </div>
+                </div>
+            </section>
         </aside>
-    
+        <section class="flex flex-col items-center py-1">
+            <h1 class="titles">Categories</h1>
+            <p class="text-xl py-2 pb-8 font-medium text-light-black/45 text-center">Find what you are looking for</p>
+            <div class="container flex flex-col items-center gap-8 w-full h-auto bg-light-blue py-10">
+               <div class="cat-div">
+                    <img src="../assets/images/cat-1.png">
+                    <h1 class="cat-sub">Natural Plants</h1>
+                </div>
+                <div class="cat-div">
+                    <img src="../assets/images/cat-2.png">
+                    <h1 class="cat-sub">Plant Accessories</h1>
+                </div>
+                <div class="cat-div">
+                    <img src="../assets/images/cat-3.png">
+                    <h1 class="cat-sub">Artificial Plants</h1>
+                </div>
+                <p class="text-center px-5 text-xl pb-1 text-light-black/50">Horem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="flex items-center gap-3 font-medium bg-white rounded-lg py-3 px-5 text-black text-xl" type="button">Explore<svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.5 10.5001C1.5 10.3343 1.57902 10.1753 1.71967 10.0581C1.86032 9.94091 2.05109 9.87506 2.25 9.87506H19.9395L15.219 5.94256C15.0782 5.8252 14.9991 5.66603 14.9991 5.50006C14.9991 5.33409 15.0782 5.17492 15.219 5.05756C15.3598 4.9402 15.5508 4.87427 15.75 4.87427C15.9492 4.87427 16.1402 4.9402 16.281 5.05756L22.281 10.0576C22.3508 10.1156 22.4063 10.1846 22.4441 10.2605C22.4819 10.3364 22.5013 10.4178 22.5013 10.5001C22.5013 10.5823 22.4819 10.6637 22.4441 10.7396C22.4063 10.8155 22.3508 10.8845 22.281 10.9426L16.281 15.9426C16.1402 16.0599 15.9492 16.1258 15.75 16.1258C15.5508 16.1258 15.3598 16.0599 15.219 15.9426C15.0782 15.8252 14.9991 15.666 14.9991 15.5001C14.9991 15.3341 15.0782 15.1749 15.219 15.0576L19.9395 11.1251H2.25C2.05109 11.1251 1.86032 11.0592 1.71967 10.942C1.57902 10.8248 1.5 10.6658 1.5 10.5001Z" fill="#1E1E1E"/>
+                    </svg>
+                    </button>
+            </div>
+        </section>
+        <section class="container flex flex-col items-center gap-5 py-7">
+            <h1 class="text-2xl px-6 text-center font-bold">What customers say
+                about GREEMIND?</h1>
+                <div class=" flex items-center gap-5 min-w-full overflow-x-auto">
+                    <div class=" min-w-full rounded-lg h-96 bg-light-blue px-2 py-4">
+                        <p class="text-light-black font-medium w-full">Jorem ipsum dolor sit adipiscing elit. libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per nostra, per inceptos himena.</p>
+                        <div class="flex justify-around items-start">
+                        </div>                        
+                    </div>
+
+
+                    <div class=" min-w-full rounded-lg h-96 py-2 bg-light-blue">
+                    </div>
+                    <div class=" min-w-full rounded-lg h-96 py-2 bg-light-blue">
+                    </div>
+                </div>
+        </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html>
