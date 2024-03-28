@@ -7,7 +7,7 @@
         @apply w-10 h-[3px] bg-light-black border-none rounded-full;
     }
     .options-num{
-        @apply flex flex-col items-center text-3xl font-medium;
+        @apply flex flex-col items-center text-3xl font-medium lg:items-start;
     }
     .options-txt{
         @apply text-lg;
@@ -41,5 +41,8 @@
     }
     .footer-cat-li{
         @apply text-light-black/45 font-medium cursor-pointer;
+    }
+    .tabs{
+        @apply text-light-black/45 text-lg font-medium hover:text-black cursor-pointer transition-all duration-200;
     }
 }
