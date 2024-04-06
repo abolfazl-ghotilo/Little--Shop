@@ -37,7 +37,7 @@
         @apply text-black font-bold text-2xl;
     }
     .footer-cat-main{
-        @apply text-black text-xl font-bold cursor-pointer;
+        @apply text-black text-xl font-bold cursor-pointer lg:text-2xl;
     }
     .footer-cat-li{
         @apply text-light-black/45 font-medium cursor-pointer;
